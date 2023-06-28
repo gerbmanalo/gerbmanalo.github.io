@@ -25,29 +25,34 @@
   <style>
     /* Custom styles for the hero section */
     .hero-title {
-      font-size: 32px;
+      font-size: 48px;
       font-weight: bold;
-      color: #333;
-      /* Add any additional styles you want */
+      color: #f5f5f5;
+      margin-bottom: 10px;
     }
 
     .hero-subtitle {
       font-size: 18px;
       color: #777;
-      /* Add any additional styles you want */
+      margin-bottom: 20px;
+    }
+
+    .hero-banner {
+      display: flex;
+      align-items: center;
     }
 
     .hero-banner img {
       max-width: 100%;
       height: auto;
-      /* Add any additional styles you want */
     }
 
     .section-text {
       font-size: 16px;
       line-height: 1.5;
       color: #555;
-      /* Add any additional styles you want */
+      text-align: center;
+      margin-bottom: 30px;
     }
 
     .btn {
@@ -57,7 +62,6 @@
       color: #fff;
       text-decoration: none;
       border-radius: 4px;
-      /* Add any additional styles you want */
     }
   </style>
 </head>
@@ -71,9 +75,7 @@
   <!-- Header -->
   <header class="header" data-header>
     <div class="container">
-      <a>
-
-      </a>
+      <a></a>
       <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
         <span class="line line-1"></span>
         <span class="line line-2"></span>
@@ -107,66 +109,52 @@
       <section class="section hero" aria-label="home">
         <div class="container">
           <div class="hero-content">
-            <h1 class="hero-title">Hello, I'm Ger B Manalo</h1>
-            <p class="hero-subtitle">
-              Data Analyst
-            </p>
             <div class="hero-banner">
               <img src="assets/images/hero-banner.jpg" alt="Hero Banner">
+              <div class="hero-info">
+                <h1 class="hero-title">Hello, I'm Ger B Manalo</h1>
+                <p class="hero-subtitle">Data Analyst</p>
+              </div>
+            </div>
+            <p class="section-text">
+              Hi, I'm Ger B Manalo, an aspiring data analyst with a strong desire to learn and grow. I am excited to bring my passion and dedication to the field.
+              I enrolled in Refocus Digital Academy, the top data analytics bootcamp in the Philippines, where I finished the Data Analyst course. Graduating from this program, I have gained a solid foundation in tools such as Excel, SQL, Power BI, and Python.
+              I am confident that my strong foundation and eagerness to learn will enable me to excel as a data analyst and make valuable contributions to any organization.
+            </p>
+            <div class="center">
+              <a href="https://docs.google.com/document/d/1HD1PAMpsYKly56jDxODzcHofQnAQSDsG/edit?usp=sharing&ouid=105474895376488384098&rtpof=true&sd=true" target="_blank" class="btn has-before">
+                <span class="span">Download CV</span>
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
             </div>
           </div>
         </div>
+      </section>
 
-
-        <p class="section-text">
-          Hi, I'm Ger B Manalo, an aspiring data analyst with a strong desire to learn and grow, I am excited to bring my passion and dedication to the field.
-          I enrolled in Refocus Digital Academy, the top data analytics bootcamp in the Philippines, where I finished Data Analyst course.Graduating from this program, I have gained a solid foundation in tools such as Excel, SQL, Power BI, and Python.
-          I am confident that my strong foundation and eagerness to learn will enable me to excel as a data analyst and make valuable contributions to any organization.
-        </p>
-
-        <a href="https://docs.google.com/document/d/1HD1PAMpsYKly56jDxODzcHofQnAQSDsG/edit?usp=sharing&ouid=105474895376488384098&rtpof=true&sd=true" target="_blank" class="btn has-before">
-          <span class="span">Download CV</span>
-
-          <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
-        </a>
-
-      </div>
-
-    </div>
-    </section>
-
-    <!--
-        - #SKILLS
-      -->
-
-    <section class="section skills" aria-label="our skills">
-      <div id="about" class="container">
-
-        <p class="section-subtitle">Data-Driven and Dedicated</p>
-
-        <h2 class="h2 section-title">Aspiring Data Analyst Ready to Make an Impact</h2>
-
-        <div class="skills-wrapper">
-
-          <div>
-            <p class="section-text">
-              My name is Ger B Manalo and I am an aspiring data analyst. As an aspiring data analyst with a strong desire to learn and grow, I am excited to bring my passion and dedication to the field.
-              I want to share my story in discovering data analytics, July 27, 2022 I received a call from a marketing agent about the opportunity to become a data analyst.
-              Recognizing the potential for a fulfilling and exciting career in this field, I immediately enrolled in Refocus to fast track my education and training in data analytics.
-              I was excited to have this opportunity and was committed to making the most of it.
-            </p>
-
-            <p class="section-text">
-              Through my studies at Refocus, I gained a strong foundation in the tools and techniques used in the field, as well as the practical experience needed to succeed as a data analyst.
-            </p>
-
-            <a href="https://www.linkedin.com/in/gerbmanalo/" class="btn has-before">LinkedIn Profile</a>
+      <!-- Skills Section -->
+      <section class="section skills" aria-label="our skills">
+        <div id="about" class="container">
+          <p class="section-subtitle">Data-Driven and Dedicated</p>
+          <h2 class="h2 section-title">Aspiring Data Analyst Ready to Make an Impact</h2>
+          <div class="skills-wrapper">
+            <div>
+              <p class="section-text">
+                My name is Ger B Manalo and I am an aspiring data analyst. As an aspiring data analyst with a strong desire to learn and grow, I am excited to bring my passion and dedication to the field.
+                I want to share my story in discovering data analytics. On July 27, 2022, I received a call from a marketing agent about the opportunity to become a data analyst.
+                Recognizing the potential for a fulfilling and exciting career in this field, I immediately enrolled in Refocus to fast track my education and training in data analytics.
+                I was excited to have this opportunity and was committed to making the most of it.
+              </p>
+              <p class="section-text">
+                Through my studies at Refocus, I gained a strong foundation in the tools and techniques used in the field, as well as the practical experience needed to succeed as a data analyst.
+              </p>
+              <div class="center">
+                <a href="https://www.linkedin.com/in/gerbmanalo/" class="btn has-before">LinkedIn Profile</a>
+              </div>
+            </div>
           </div>
-
         </div>
-      </div>
-    </section>
-
+      </section>
+    </article>
   </main>
 
   <!-- Custom JS link -->

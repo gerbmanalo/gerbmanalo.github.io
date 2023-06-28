@@ -1,103 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Primary meta tags -->
-  <title>Ger B Manalo - Data Analyst</title>
-  <meta name="title" content="Ger B Manalo - Data Analyst">
-  <meta name="description" content="This is a personal portfolio">
-  
-  <!-- Google Fonts link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Custom CSS link -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  
-  < <!-- Preload images -->
-  <link rel="preload" as="image" href="assets/images/hero-banner.jpg">
+  <!-- Head code... -->
+
   <style>
     /* Custom styles for the hero section */
+    .hero {
+      padding-block-start: 130px;
+      background-color: var(--primary-color);
+      color: var(--white);
+    }
+
     .hero-title {
-      font-size: 32px;
-      font-weight: bold;
-      color: #333;
-      /* Add any additional styles you want */
+      text-transform: uppercase;
+      word-break: break-all;
+      font-size: 48px; /* Adjust the font size as needed */
+      font-weight: 600;
+      color: #fff; /* Change the font color to white */
     }
 
     .hero-subtitle {
-      font-size: 18px;
-      color: #777;
-      /* Add any additional styles you want */
+      font-size: var(--fs-8);
+      text-transform: uppercase;
+      font-weight: var(--fw-700);
+      letter-spacing: 2px;
+      line-height: 1.5em;
+      margin-block: 10px 30px;
     }
 
-    .hero-banner img {
-      max-width: 100%;
-      height: auto;
-      /* Add any additional styles you want */
-    }
-
-    .section-text {
-      font-size: 16px;
-      line-height: 1.5;
-      color: #555;
-      /* Add any additional styles you want */
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #333;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-      /* Add any additional styles you want */
-    }
+    /* Rest of the CSS styles... */
   </style>
 </head>
-<body>
-  <!-- Preloader -->
-  <div class="preloader" data-preloader>
-    <div class="circle"></div>
-  </div>
 
-  <!-- Header -->
-  <header class="header" data-header>
-    <div class="container">
-      <a>
-        
-      </a>
-      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-      </button>
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
-          <li>
-            <a href="#" class="navbar-link">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="navbar-link">About</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="navbar-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#blog" class="navbar-link">Blog</a>
-          </li>
-          <li>
-            <a href="#contact" class="navbar-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="overlay" data-nav-toggler data-overlay></div>
-    </div>
-  </header>
+<body>
+  <!-- HTML structure... -->
 
   <main>
     <article>
@@ -105,64 +42,35 @@
       <section class="section hero" aria-label="home">
         <div class="container">
           <div class="hero-content">
-            <h1 class="hero-title">Hello, I'm Ger B Manalo</h1>
-            <p class="hero-subtitle">
-              Data Analyst 
-            </p>
             <div class="hero-banner">
               <img src="assets/images/hero-banner.jpg" alt="Hero Banner">
             </div>
+            <div class="hero-info">
+              <h1 class="hero-title">Ger B Manalo</h1>
+              <p class="hero-subtitle">
+                Data Analyst 
+              </p>
+              <div class="center">
+                <p class="section-text">
+                  Hi, I'm Ger B Manalo, an aspiring data analyst with a strong desire to learn and grow. I am excited to bring my passion and dedication to the field. I enrolled in Refocus Digital Academy, the top data analytics bootcamp in the Philippines, where I finished the Data Analyst course. Graduating from this program, I have gained a solid foundation in tools such as Excel, SQL, Power BI, and Python. I am confident that my strong foundation and eagerness to learn will enable me to excel as a data analyst and make valuable contributions to any organization.
+                </p>
+
+                <a href="https://docs.google.com/document/d/1HD1PAMpsYKly56jDxODzcHofQnAQSDsG/edit?usp=sharing&ouid=105474895376488384098&rtpof=true&sd=true" target="_blank" class="btn has-before">
+                  <span class="span">Download CV</span>
+                  <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-
-
-            <p class="section-text">
-              Hi, I'm Ger B Manalo, an aspiring data analyst with a strong desire to learn and grow, I am excited to bring my passion and dedication to the field. 
-              I enrolled in Refocus Digital Academy, the top data analytics bootcamp in the Philippines, where I finished Data Analyst course.Graduating from this program, I have gained a solid foundation in tools such as Excel, SQL, Power BI, and Python.
-              I am confident that my strong foundation and eagerness to learn will enable me to excel as a data analyst and make valuable contributions to any organization.
-            </p>
-
-            <a href="https://docs.google.com/document/d/1HD1PAMpsYKly56jDxODzcHofQnAQSDsG/edit?usp=sharing&ouid=105474895376488384098&rtpof=true&sd=true" target="_blank" class="btn has-before">
-              <span class="span">Download CV</span>
-
-              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-
         </div>
       </section>
 
-        <!--
-        - #SKILLS
-      -->
-
-      <section class="section skills" aria-label="our skills">
-        <div id="about" class="container">
-
-          <p class="section-subtitle">Data-Driven and Dedicated</p>
-
-          <h2 class="h2 section-title">Aspiring Data Analyst Ready to Make an Impact</h2>
-
-          <div class="skills-wrapper">
-
-            <div>
-              <p class="section-text">
-                My name is Ger B Manalo and I am an aspiring data analyst. As an aspiring data analyst with a strong desire to learn and grow, I am excited to bring my passion and dedication to the field. 
-                I want to share my story in discovering data analytics, July 27, 2022 I received a call from a marketing agent about the opportunity to become a data analyst. 
-                Recognizing the potential for a fulfilling and exciting career in this field, I immediately enrolled in Refocus to fast track my education and training in data analytics. 
-                I was excited to have this opportunity and was committed to making the most of it. 
-              </p>
-
-              <p class="section-text">
-                Through my studies at Refocus , I gained a strong foundation in the tools and techniques used in the field, as well as the practical experience needed to succeed as a data analyst. 
-              </p>
-
-              <a href="https://www.linkedin.com/in/gerbmanalo/" class="btn has-before">LinkedIn Profile</a>
-            </div>
-
+      <!-- Rest of the code... -->
+    </article>
+  </main>
 
   <!-- Custom JS link -->
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
